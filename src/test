@@ -1,0 +1,111 @@
+* {
+  box-sizing:border-box;
+  /* border: 1px solid black; */
+}
+
+#total {
+  margin: 20px;
+  width: 900px;
+  height: 600px;
+  background-color: rgb(230, 230, 230);
+}
+
+/* top */
+.top {
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+.velog {
+  margin: 0 680px 0 30px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.login {
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  width: 70px;
+  text-align: center;
+}
+
+/* 카테고리 */
+.category {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin: 30px 0 20px 30px;
+}
+
+/* 게시글 */
+.bar {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* 게시글 컴포넌트 */
+.post {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  padding: 20px;
+}
+
+.img {
+  height: 250px;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.info {
+  color: gray;
+  height: 80px;
+}
+
+.date {
+  margin-left: 20px;
+}
+
+/* 구분선 */
+hr {
+  width: 100%;
+  background: rgb(165, 163, 163);
+  height: 1px;
+  border: 0;
+}
+
+/* 유저 */
+.user {
+  display: flex;
+}
+
+.sidebtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 40px;
+  height: 80px;
+  background-color: white;
+  border-radius: 30px;
+  margin-top: 80px;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  color: white;
+}
+
+a:link,
+a:visited {
+  color: inherit;
+}
